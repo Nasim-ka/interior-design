@@ -41,8 +41,12 @@ a:hover{
 .nav-link {
   padding-right: 0;
   padding-left: 0;
-  /* border-bottom: var(--#{$prefix}nav-underline-border-width) solid transparent; */
+
 max-width: 80px;
+justify-content: center;
+align-items: center;
+display: flex;
+margin: auto;
   &:hover,
   &:focus {
     border-bottom-color: currentcolor;

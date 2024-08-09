@@ -12,7 +12,7 @@ const MyNavbar = () => {
   return (
     <>
       <Navbar collapseOnSelect 
-         expand="lg" className="bg-dark z-3 text-sm-large text-md-medium" fixed="top">
+         expand="lg" className="bg-dark z-3" fixed="top">
         <Container>
           <Navbar.Brand eventKey="#" className="textgreen fs-2 chic">
             Chic
@@ -23,7 +23,7 @@ const MyNavbar = () => {
           <Navbar.Collapse  className="iconwhite" id="responsive-navbar-nav"  >
             <Nav
              variant="underline" defaultActiveKey="/home"
-              className="ms-auto my-2 my-lg-0 text-sm-large text-md-medium"
+              className="ms-auto my-2 my-lg-0"
               style={{ maxHeight: "100px" }}
               responsive-navbar-nav
               
